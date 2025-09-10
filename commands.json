@@ -1,0 +1,11 @@
+[
+  { "name": "ping", "description": "Muestra el ping del bot" },
+  { "name": "kick", "description": "Expulsa a un usuario del servidor" },
+  { "name": "ban", "description": "Banea a un usuario del servidor" },
+  { "name": "mute", "description": "Silencia a un usuario temporal o indefinidamente" },
+  { "name": "unmute", "description": "Quita el mute a un usuario" },
+  { "name": "warn", "description": "Agrega una advertencia a un usuario" },
+  { "name": "warnings", "description": "Muestra las advertencias de un usuario" },
+  { "name": "8ball", "description": "Hazle preguntas al bot" },
+  { "name": "help", "description": "Muestra todos los comandos" }
+]
