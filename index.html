@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darkz v1 - Bot de Discord</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
 </head>
 <body>
+    <!-- Fondo animado -->
+    <div id="tsparticles"></div>
+
     <!-- Navbar -->
     <header>
         <div class="logo">⚡ Darkz v1</div>
@@ -19,9 +23,11 @@
 
     <!-- Hero -->
     <section id="hero">
-        <h1>Bienvenido a Darkz v1</h1>
-        <p>Tu bot de Discord profesional con comandos útiles, moderación avanzada y diversión asegurada.</p>
-        <a href="https://discord.com/oauth2/authorize?client_id=1414124025411797002&permissions=8&integration_type=0&scope=applications.commands+bot" class="btn">🚀 Invitar Bot</a>
+        <div class="hero-content">
+            <h1>Bienvenido a Darkz v1</h1>
+            <p>Tu bot de Discord profesional con moderación avanzada, diversión y comandos útiles.</p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1414124025411797002&permissions=8&integration_type=0&scope=applications.commands+bot" class="btn">🚀 Invitar Bot</a>
+        </div>
     </section>
 
     <!-- Sección de Comandos -->
@@ -30,11 +36,13 @@
         <div id="comandos-container"></div>
     </section>
 
-    <!-- Soporte -->
+    <!-- Sección de Soporte -->
     <section id="soporte">
-        <h2>💬 Soporte</h2>
-        <p>Únete a nuestro servidor de soporte para obtener ayuda y enterarte de las últimas novedades.</p>
-        <a href="https://discord.gg/pM2eExJn9k" class="btn">🔗 Servidor de Soporte</a>
+        <div class="support-content">
+            <h2>💬 Soporte</h2>
+            <p>Únete a nuestro servidor de soporte para ayuda y enterarte de las últimas novedades.</p>
+            <a href="https://discord.gg/pM2eExJn9k" class="btn">🔗 Servidor de Soporte</a>
+        </div>
     </section>
 
     <!-- Footer -->
